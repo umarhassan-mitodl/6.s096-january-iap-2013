@@ -14,11 +14,11 @@ uid: 95373ee7-c310-c36e-3ac2-a00d9b23d8bf
 ---
 Starting a C or C++ project from scratch can be a daunting task. If you're having trouble picking a software library, installing it on your system, and testing that it works, maybe you should try this Starter Kit!
 
-This Starter Kit uses the {{% resource_link "c19047b5-671c-4f80-bcc2-6c8cbddf1969" "libpng" %}} library to render a series of random lines as a PNG image. The images look like this:
+This Starter Kit uses the [libpng](http://www.libpng.org/pub/png/libpng.html) library to render a series of random lines as a PNG image. The images look like this:
 
 {{< resource uuid="16c065ed-11ff-2203-60ba-6190d4a8bc4d" >}}
 
-The example code was written by skimming the section of the {{% resource_link "8d6b9f26-febc-474f-b1fa-dddb4e52a71d" "libpng manual (PDF)" %}} on how to write PNG files. That manual also has a section on *reading* PNG files that you might find useful.
+The example code was written by skimming the section of the [libpng manual (PDF)](http://www.libpng.org/pub/png/libpng-1.4.0-manual.pdf) on how to write PNG files. That manual also has a section on *reading* PNG files that you might find useful.
 
 Use this kit to bootstrap your project and your imagination! The deadline looms, but there's still plenty of time to have fun making silly little PNG files!
 
@@ -45,7 +45,7 @@ To view your image, you can use the `scp` command to copy it to your computer.
 In the spirit of lab exercises, here are a few tasks to direct your focus to the parts of the program that matter:
 
 1. Make the program take the filename as a command-line argument instead of hard-coding "`out.png`".
-2. Tweak the values that are assigned to `r`, `g`, `b`, and `a` in the loop labeled "`draw a bunch of vertical lines`". The values range from 0 to 255. You should do this if you don't understand how pixels work. {{% resource_link "49746cc4-0213-4472-9631-c9e090af1679" "Wikipedia has a nice section on pixel colors" %}}.
+2. Tweak the values that are assigned to `r`, `g`, `b`, and `a` in the loop labeled "`draw a bunch of vertical lines`". The values range from 0 to 255. You should do this if you don't understand how pixels work. [Wikipedia has a nice section on pixel colors](http://en.wikipedia.org/wiki/RGB#Numeric_representations).
 3. Memory is allocated for storing the image data, but it's never freed. You should free it. You'll definitely need to do this if you use this code as a base for your project!
 4. Tweak the program to draw horizontal lines instead of vertical ones.
 
@@ -79,4 +79,4 @@ Read a PNG image (with libpng), flip it upside-down, and save it as a new image.
 
 ### Game of Life
 
-Implement the {{% resource_link "0e2a0d2e-a2cf-469f-be70-c8cbb0ebc336" "Game of Life" %}} and render each time step as a separate PNG file.
+Implement the [Game of Life](http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) and render each time step as a separate PNG file.

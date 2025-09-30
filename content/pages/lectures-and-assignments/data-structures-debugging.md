@@ -23,7 +23,7 @@ The primary goal of this lab period is to introduce debugging tools, and use of 
 
 ### Exercise 1
 
-Download and install {{% resource_link "6be2488d-1a07-428a-adac-c1dbeae2c17f" "Valgrind" %}} on your system, if it's not already. To test if you have Valgrind, run `valgrind --version`. It should print the version of Valgrind that is installed.
+Download and install [Valgrind](http://valgrind.org/) on your system, if it's not already. To test if you have Valgrind, run `valgrind --version`. It should print the version of Valgrind that is installed.
 
 ```c
 #include <stdlib.h>
@@ -82,7 +82,7 @@ Today's assignment combines the material from the past few lectures. Your job is
 
 {{% resource_link 8c771098-eeb1-37e4-ad84-32b82d3a4dd9 "Assignment 4 files (ZIP)" %}} (This ZIP file conatins: 2 .c files and 1 .h file.)
 
-You can learn more about binary search trees and find pseudo-code on {{% resource_link "b9cb80f6-ffe8-4756-92b3-4f850fabd10c" "the binary search tree page on Wikipedia" %}}.
+You can learn more about binary search trees and find pseudo-code on [the binary search tree page on Wikipedia](http://en.wikipedia.org/wiki/Binary_search_tree).
 
 Your job is to implement a binary search tree, a data structure of connected nodes with a tree shape. Each node has a node identifier (a number), data (payload), and 2 children (left and right). The children are other nodes referenced with a pointer, with the constraint that the left node's ID is less than the parent node's ID, and the right node's ID is larger than the parent node ID. No two nodes will have the same identifier. A node can have less than two children; in that case, one or more of its child pointers can be `NULL`.
 
