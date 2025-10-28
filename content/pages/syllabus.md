@@ -3,8 +3,6 @@ content_type: page
 description: This syllabus section provides the course description and information
   on course meeting times, the standard software environment used for the course,
   and how to mimic that environment on your own computer.
-hide_download: true
-hide_download_original: null
 learning_resource_types: []
 ocw_type: CourseSection
 title: Syllabus and Software
@@ -37,8 +35,8 @@ It's most efficient for the staff if everyone uses the same environment:
 
 You can mimic that environment on your own computer:
 
-*   **Windows:** All the necessary packages (except valgrind) are available in [cygwin](http://www.cygwin.com/) (gcc-core, gcc-g++, gdb).
-*   **OS X:** [Install Xcode from the App Store](https://itunes.apple.com/us/app/xcode/id497799835), open it, go to Preferences > Downloads > Components and download "Command Line Tools".
+*   **Windows:** All the necessary packages (except valgrind) are available in {{% resource_link "0265b613-c27a-4963-88fc-bd50f88180c6" "cygwin" %}} (gcc-core, gcc-g++, gdb).
+*   **OS X:** {{% resource_link "f92f385d-e2c7-4ed7-950d-a55eb29eaaa2" "Install Xcode from the App Store" %}}, open it, go to Preferences > Downloads > Components and download "Command Line Tools".
 *   **Linux:** `sudo apt-get install build-essential` or equivalent.
 
 ### IDEs
@@ -50,7 +48,7 @@ If you'd like to use a GUI instead (and there are many good reasons to do so), w
 
 Nevertheless, these IDEs seem to work well:
 
-*   [Code::Blocks](http://www.codeblocks.org/) (Windows, Linux, OS X)
-*   [Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/junosr1) (Windows, Linux, OS X)
+*   {{% resource_link "5eb02793-5fe2-4e30-b3c0-6e419107f65f" "Code::Blocks" %}} (Windows, Linux, OS X)
+*   {{% resource_link "6e5b44c9-a64f-48df-97e6-625498df77c1" "Eclipse" %}} (Windows, Linux, OS X)
 *   Visual Studio (Windows)
-*   [Xcode](https://itunes.apple.com/us/app/xcode/id497799835) (OS X)
+*   {{% resource_link "f92f385d-e2c7-4ed7-950d-a55eb29eaaa2" "Xcode" %}} (OS X)

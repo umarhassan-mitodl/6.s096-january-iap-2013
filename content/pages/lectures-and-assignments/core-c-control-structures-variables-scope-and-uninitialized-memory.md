@@ -2,8 +2,6 @@
 content_type: page
 description: This section provides materials for a lecture on writing code in C, including
   lecture notes, lab exercises, and an assignment.
-hide_download: true
-hide_download_original: null
 learning_resource_types: []
 ocw_type: CourseSection
 parent_title: Lectures and Assignments
@@ -25,7 +23,7 @@ The primary goal of this lab period is to make sure you know all of the basics o
 
 ### Exercise 1
 
-Starting with an empty .c file, write a C program to calculate the first 100 [triangular numbers](http://en.wikipedia.org/wiki/Triangular_number) (0, 1, 3, 6, 10, 15, 21, …). You may check back at previous example code and slides if you get stuck, but take this an opportunity to try to recall, from memory, the standard boilerplate code you'll be writing often when starting a new C program, like the proper `#include` statements to be able to print to the console.
+Starting with an empty .c file, write a C program to calculate the first 100 {{% resource_link "7a252029-d478-41c4-9d06-8f22d808c32c" "triangular numbers" %}} (0, 1, 3, 6, 10, 15, 21, …). You may check back at previous example code and slides if you get stuck, but take this an opportunity to try to recall, from memory, the standard boilerplate code you'll be writing often when starting a new C program, like the proper `#include` statements to be able to print to the console.
 
 ### Exercise 2
 
